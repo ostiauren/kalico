@@ -99,6 +99,7 @@ src-$(CONFIG_WANT_HARD_PWM) += stm32/hard_pwm.c
 
 sdio-src-y := stm32/sdio.c
 src-$(CONFIG_HAVE_GPIO_SDIO) += $(sdio-src-y)
+src-$(CONFIG_SERIAL_BRIDGE) += stm32/serial_bridge.c generic/serial_bridge_irq.c
 
 # Binary output file rules
 target-y += $(OUT)klipper.bin
