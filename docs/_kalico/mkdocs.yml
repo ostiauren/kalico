@@ -106,6 +106,7 @@ nav:
     - MPC.md
     - Dockable_Probe.md
     - INDX.md
+    - Ender3_V3_SE_Display.md
   - G-Code Reference:
     - G-Codes.md
     - Command_Templates.md
